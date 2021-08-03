@@ -1,9 +1,10 @@
 import './App.css';
+import BookList from '../containers/BooksList';
 
 function App() {
   return (
     <div className="App">
-      <BooksList />
+      <BookList />
       <BooksForm />
     </div>
   );
