@@ -25,8 +25,8 @@ const Component = ({ books }) => (
   </table>
 );
 
-Component.prototype = {
-  book: PropTypes.objectOf(PropTypes.object).isRequired,
+Component.propTypes = {
+  books: PropTypes.objectOf(PropTypes.object).isRequired,
 };
 
 const BookList = connect(mapStateToProps, null)(Component);
