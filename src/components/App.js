@@ -1,11 +1,11 @@
 import './App.css';
-import BookList from '../containers/BooksList';
+import BooksList from '../containers/BooksList';
 import BooksForm from '../containers/BooksForm';
 
 function App() {
   return (
     <div className="App">
-      <BookList />
+      <BooksList />
       <BooksForm />
     </div>
   );

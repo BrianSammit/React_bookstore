@@ -13,8 +13,8 @@ const Component = ({ books }) => (
     <thead>
       <tr>
         <th>ID</th>
-        <th>Title</th>
         <th>Category</th>
+        <th>Title</th>
       </tr>
     </thead>
     <tbody>
@@ -29,5 +29,5 @@ Component.propTypes = {
   books: PropTypes.objectOf(PropTypes.object).isRequired,
 };
 
-const BookList = connect(mapStateToProps, null)(Component);
-export default BookList;
+const BooksList = connect(mapStateToProps, null)(Component);
+export default BooksList;
