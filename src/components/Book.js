@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Book = ({ book }) => (
+const Book = ({ book }) => {
   <tr key={book.id}>
     <td>{book.id}</td>
     <td>{book.category}</td>
     <td>{book.title}</td>
-  </tr>
-);
+  </tr>;
+};
 
 Book.propTypes = {
   book: PropTypes.exact({
