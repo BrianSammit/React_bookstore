@@ -29,9 +29,10 @@
 }
 
 .Mask {
-  width: 17px;
-  height: 17px;
-  background-color: #0290ff;
+  width: 1.063rem;
+  height: 1.063rem;
+  background-color: var(--azure);
+  color: #0290ff;
 }
 
 .Bookstore-CMS {

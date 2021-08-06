@@ -10,13 +10,18 @@ const initialState = {
   books: [
     {
       id: 1,
-      title: 'See, Touch, Feel',
-      category: 'Kids',
+      title: 'Game of thrones',
+      category: 'Sci-Fi',
     },
     {
       id: 2,
-      title: 'The Sum of Us',
-      category: 'History',
+      title: 'Art of war',
+      category: 'Learning',
+    },
+    {
+      id: 3,
+      title: 'A Clash of Kings',
+      category: 'Sci-Fi',
     },
   ],
 };

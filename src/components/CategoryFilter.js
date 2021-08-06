@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 import './CategoryFilter.css';
 
 const CategoryFilter = ({ handleFilterChange, categories }) => (
@@ -17,7 +19,7 @@ const CategoryFilter = ({ handleFilterChange, categories }) => (
       </div>
     </div>
     <div className="Oval">
-      <div className="Mask" />
+      <FontAwesomeIcon icon={faUser} className="Mask" />
     </div>
   </div>
 );
