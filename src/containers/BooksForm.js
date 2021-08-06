@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import { createBook } from '../actions';
-import './style.css';
+import './BooksForm.css';
 
 const BooksForm = ({ categories }) => {
   const [title, setTitle] = useState('');
