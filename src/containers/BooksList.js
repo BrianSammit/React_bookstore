@@ -29,13 +29,6 @@ const BooksList = ({ categories }) => {
     <>
       <CategoryFilter categories={categories} handleFilterChange={handleFilterChange} />
       <table>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Category</th>
-            <th>Title</th>
-          </tr>
-        </thead>
         <tbody>
           {booksFilter().map((book) => (
             <Book key={book.id} book={book} remove={handleClick} />

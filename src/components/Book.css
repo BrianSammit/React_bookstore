@@ -192,12 +192,12 @@
 }
 
 .Rectangle-2 {
-  width: 184px;
-  height: 25px;
-  margin: 12px 28px 9px 59px;
-  padding: 7px 19px 8px 22px;
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0.75rem 0 0.563rem 3.688rem;
+  padding: 0.8rem 0 0 1.575rem;
   border-radius: 3px;
+  border: none;
+  color: azure;
   background-color: #0290ff;
-  color: #fff;
-  text-align: center;
 }

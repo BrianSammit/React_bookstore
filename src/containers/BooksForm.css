@@ -15,7 +15,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.18px;
-  color: #121212;
+  color: #888;
 }
 
 .Line {
@@ -60,11 +60,12 @@
 }
 
 .Rectangle {
-  width: 184px;
-  height: 45px;
-  margin: 19px 0 0 34px;
-  padding: 12.8px 19px 14.2px 22px;
+  width: 11.5rem;
+  height: 2.813rem;
+  margin: 1.188rem 0 0 2.125rem;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
   border-radius: 3px;
+  border: none;
+  color: azure;
   background-color: #0290ff;
-  color: #e8e8e8;
 }
