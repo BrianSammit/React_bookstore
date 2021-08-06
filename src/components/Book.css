@@ -1,0 +1,203 @@
+.Lesson-Panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 130px;
+  margin: 37px 100px 0;
+  padding: 32px 26px 26px 27px;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 25px;
+}
+
+.School-of {
+  width: 49px;
+  height: 18px;
+  margin: 0 39px 0 0;
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.author {
+  width: 49px;
+  height: 18px;
+  margin: 0 39px 0 0;
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.title {
+  width: 197px;
+  height: 29px;
+  margin: 10px 323px 10px 0;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.Remove {
+  width: 54px;
+  height: 19px;
+  margin: 3px 15px 2px 15px;
+  font-family: RobotoSlab, sans-serif;
+  opacity: 0.5;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  background: none;
+  border: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.Remove2 {
+  width: 54px;
+  height: 19px;
+  margin: 3px 25px 2px 0;
+  font-family: RobotoSlab, sans-serif;
+  opacity: 0.5;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  background: none;
+  border: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.Line-2 {
+  width: 1px;
+  height: 24px;
+  border: solid 1px #e8e8e8;
+  background-color: #e8e8e8;
+}
+
+.Rectangle-3 {
+  width: 90px;
+  height: 89.9px;
+  padding: 9.9px 10px 12px 12px;
+}
+
+.line {
+  width: 2px;
+  height: 70px;
+  margin: 18px 10px 0 10px;
+  border: solid 1px #e8e8e8;
+  background-color: #e8e8e8;
+}
+
+.Oval-2 {
+  width: 68px;
+  height: 68px;
+  border-style: solid;
+  border-width: 5px;
+  border-image-source: linear-gradient(to bottom, #307bbe, #307bbe);
+  border-image-slice: 1;
+}
+
+.-Percent-Complete {
+  width: 68px;
+  height: 39px;
+  margin: 1px 92px 0 11px;
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.Completed {
+  width: 80px;
+  height: 18px;
+  margin: 7px 79px 12px 12px;
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.Current-Chapter {
+  height: 18px;
+  margin: 1px 0 0 59px;
+  opacity: 0.5;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.Current-Lesson {
+  width: 90px;
+  height: 21px;
+  margin: 7px 94px 4px 59px;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
+}
+
+.Rectangle-2 {
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0.75rem 0 0.563rem 3.688rem;
+  padding: 0.8rem 0 0 1.575rem;
+  border-radius: 3px;
+  border: none;
+  color: azure;
+  background-color: #0290ff;
+}
