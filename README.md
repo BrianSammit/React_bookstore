@@ -1,4 +1,8 @@
-# React Bookstore 
+# React Bookstore
+
+## Screenshot
+
+![](/public/img/Capture.JPG)
 
 ## Getting Started
 
@@ -35,7 +39,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 # Demo link
 
 [Demo](https://optimistic-jang-04c27d.netlify.app/)
-
 
 ## Author
 
