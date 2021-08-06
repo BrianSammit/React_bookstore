@@ -1,4 +1,10 @@
-# React Bookstore 
+# React Bookstore
+
+In this project I use React and Redux to build a Bookstore application. Is a complete fron_end application for magic-books ltd that is a fictional company based in Germany
+
+## Screenshot
+
+![](/public/img/Capture.JPG)
 
 ## Getting Started
 
@@ -35,7 +41,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 # Demo link
 
 [Demo](https://optimistic-jang-04c27d.netlify.app/)
-
 
 ## Author
 

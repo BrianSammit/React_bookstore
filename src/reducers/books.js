@@ -1,20 +1,7 @@
 const CREATE_BOOK = 'CREATE_BOOK';
 const REMOVE_BOOK = 'REMOVE_BOOK';
 
-const initialState = {
-  books: [
-    {
-      id: 1,
-      title: 'See, Touch, Feel',
-      category: 'Kids',
-    },
-    {
-      id: 2,
-      title: 'The Sum of Us',
-      category: 'History',
-    },
-  ],
-};
+const initialState = {};
 
 const booksReducer = (state = initialState, action) => {
   switch (action.type) {

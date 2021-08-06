@@ -1,0 +1,71 @@
+.form {
+  margin: 15px 100px 0;
+  padding: 32px 26px 26px 27px;
+  width: auto;
+}
+
+.title {
+  width: 174px;
+  height: 24px;
+  margin: 29px 524px 19px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.Line {
+  width: auto;
+  height: 2px;
+  margin: 40px 1px 29px 0;
+  border: solid 1px #e8e8e8;
+  background-color: #e8e8e8;
+}
+
+.add {
+  width: 450px;
+  height: 20px;
+  margin: 19px 34px 0 0;
+  padding: 13px 13px 13px 17px;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.category {
+  width: 200px;
+  height: 50px;
+  margin: 19px 34px 0 0;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.ADD-BOOK {
+  width: 143px;
+  height: 18px;
+  font-family: RobotoSlab, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
+
+.Rectangle {
+  width: 11.5rem;
+  height: 2.813rem;
+  margin: 1.188rem 0 0 2.125rem;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  border-radius: 3px;
+  border: none;
+  color: azure;
+  background-color: #0290ff;
+}
