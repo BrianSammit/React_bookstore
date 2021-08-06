@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import { createBook } from '../actions';
+import './style.css';
 
 const BooksForm = ({ categories }) => {
   const [title, setTitle] = useState('');
@@ -31,16 +32,23 @@ const BooksForm = ({ categories }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input required onChange={handleInputChange} value={title.value} />
-      <select required onChange={handleSelectChange} value={category.value}>
-        <option value="">Category</option>
-        {categories.map((category) => (
-          <option key={category}>{category}</option>
-        ))}
-      </select>
-      <button type="submit">Submit</button>
-    </form>
+    <div className="form">
+      <div className="Line" />
+
+      <h2 className="title">ADD NEW BOOK</h2>
+      <form onSubmit={handleSubmit}>
+        <input className="add" placeholder="Book title" required onChange={handleInputChange} value={title.value} />
+        <select className="category" required onChange={handleSelectChange} value={category.value}>
+          <option value="">Category</option>
+          {categories.map((category) => (
+            <option key={category}>{category}</option>
+          ))}
+        </select>
+        <button className="Rectangle" type="submit">
+          ADD BOOK
+        </button>
+      </form>
+    </div>
   );
 };
 
