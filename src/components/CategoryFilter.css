@@ -1,0 +1,79 @@
+.filter {
+  display: flex;
+  margin-left: 50px;
+}
+
+.panel-bg {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 60px;
+  margin: 0 0 0 0;
+  padding: 27px;
+  background-color: #fff;
+}
+
+.cat {
+  display: flex;
+}
+
+.Oval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  padding: 14px;
+  border: solid 1px #e8e8e8;
+  border-radius: 50%;
+}
+
+.Mask {
+  width: 17px;
+  height: 17px;
+  background-color: #0290ff;
+}
+
+.Bookstore-CMS {
+  width: 240px;
+  height: 37px;
+  margin: 6px 47px 2px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.BOOKS {
+  width: 59px;
+  height: 16px;
+  margin: 18px 41px 11px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #121212;
+}
+
+.CATEGORIES {
+  width: 120px;
+  height: 16px;
+  margin: 18px 100px 11px 41px;
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+  border: none;
+}
