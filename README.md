@@ -1,5 +1,7 @@
 # React Bookstore
 
+In this project I use React and Redux to build a Bookstore application. Is a complete fron_end application for magic-books ltd that is a fictional company based in Germany
+
 ## Screenshot
 
 ![](/public/img/Capture.JPG)
